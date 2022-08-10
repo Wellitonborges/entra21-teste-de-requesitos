@@ -29,36 +29,30 @@ console.log('Opa Eu sou um ' + typeof objeto+ ' json');
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 
-//criando if 
-function tiposPrimitivos(tipo) {
-
-if (tiposPrimitivos == typeof number){
-     console.log('isso é numero');
-}else{
-console.log('Opss deu errado');
-}
-
-if (tiposPrimitivos == typeof string){
-    console.log('isso é uma String');
-}else{
-console.log('Opss deu errado');
-}
-
-}
 
 
 
+function tipo(){
 
-// switch (tipo) {
-//     case number:
-//         if (number == typeof number){
-//             console.log('Isso é um '+typeof number);
-//             }else {
-//                 console.log('Opss deu errado');
-//             }
+    switch (tipo) {
+    case 'number':
+    console.log('Ola eu sou um Numero e posso realizar calculos matematicos ');
     
-//         break;
+        break;
 
-//     case '':
-//         console.log("");
-// }
+    case 'string':
+        console.log("Ola eu Sou uma String e cmg vc pode digitar textos livros e tudo que estiver pensando");
+}
+}
+
+//criando function if 
+function tiposPrimitivos() {
+
+if (tiposPrimitivos == 'numero'){
+    tipo()
+}else{
+    (tiposPrimitivos == 'string')
+  tipo()
+        
+}
+}

@@ -29,9 +29,19 @@ console.log('Opa Eu sou um ' + typeof objeto+ ' json');
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 
+// function com ForEach
+function forEach(){
+    var nomes = [{nomes: 'Alberto', Sobrenome: 'Fagundes'},
+              {nomes: 'Alfredo', Sobrenome: 'Gomes'},
+              {nomes: 'Gustavo', Sobrenome: 'Lima'},
+              {nomes: 'Olivia', Sobrenome: 'Palito'}];
+nomes.forEach((elemento) => {
+      console.log("nomes: " + elemento.nomes + " - Sobrenome: " + elemento.Sobrenome);
+})
+}
 
 
-
+// Switch
 function tipo(){
 
     switch (tipo) {
@@ -56,3 +66,4 @@ if (tiposPrimitivos == 'numero'){
         
 }
 }
+
